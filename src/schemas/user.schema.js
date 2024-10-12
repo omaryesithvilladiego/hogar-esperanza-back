@@ -43,7 +43,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: [true, "El plan es requerido"],
         enum: {
-            values: ['hogar permanente compartido', 'hogar permanente VIP', 'hogar permanente VIP compartido','hogar vacaciones'],
+            values: ['Hogar permanente compartido', 'Hogar permanente VIP', 'Hogar permanente VIP compartido','Hogar de vacaciones'],
             message: 'el plan no es correcto'
         }
     }
