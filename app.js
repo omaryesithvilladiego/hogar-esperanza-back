@@ -10,7 +10,7 @@ var app = express();
 // view engine setup
 
 let corsOptions = {
-  origin: ['http://localhost:5173','https://front-hogar-esperanza-qpe3.vercel.app','https://hogar-esperanza-back.onrender.com'],
+  origin: ['http://localhost:5173','https://deluxe-capybara-863266.netlify.app','https://hogar-esperanza-back.onrender.com'],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'], // Agrega otros headers si es necesario
 };
