@@ -13,7 +13,6 @@ let corsOptions = {
   origin: ['http://localhost:5173','https://front-hogar-esperanza-qpe3.vercel.app','https://hogar-esperanza-back.onrender.com'],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'], // Agrega otros headers si es necesario
-  credentials: true, // Si necesitas enviar cookies o autenticación
 };
 
 app.use(cors(corsOptions))

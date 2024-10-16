@@ -46,6 +46,9 @@ const userSchema = new mongoose.Schema({
             values: ['Hogar permanente compartido', 'Hogar permanente VIP', 'Hogar permanente VIP compartido','Hogar de vacaciones'],
             message: 'el plan no es correcto'
         }
+    },
+    password:{
+        type:String
     }
 });
 
