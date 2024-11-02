@@ -24,8 +24,10 @@ const createUser = async (user) => {
           
             return `
               <div style="padding: 20px; color: #333;">
+
                 <img src="https://firebasestorage.googleapis.com/v0/b/hogaresperanza-8f8ea.appspot.com/o/IMG_1190.PNG?alt=media&token=c313bd2e-b00c-413d-ac31-50201b059e73" alt="Logo Hogar Esperanza" style="width: 30px; height: auto; vertical-align: middle;" />
-               
+                <img src="https://firebasestorage.googleapis.com/v0/b/hogaresperanza-8f8ea.appspot.com/o/WhatsApp%20Image%202024-07-26%20at%202.20.26%20PM.jpeg?alt=media&token=71e641ac-09ba-43c6-8cc2-8f421d2d35b9" alt="Logo Hogar Esperanza" style="width: 100%; height: auto; "  />
+                
                 <h1 style="text-align: center; color: green;">¡Bienvenido/a a Fundación Hogar Esperanza!</h1>
                 <p style="font-size: 16px; color: black;">Estamos comprometidos con brindarle la mejor experiencia y atención posible.</p>
                 <p style="font-size: 16px; color: black;">Agradecemos su interés en nuestros planes y servicios. Nuestro equipo se comunicará con usted pronto para discutir cómo podemos ayudarle.</p>
